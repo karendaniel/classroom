@@ -20,6 +20,16 @@ class View
 
 		$this->getHtmlTemplate('registration');
 	}
+	public function renderLoginForm()
+	{
+
+		$this->getHtmlTemplate('login');
+	}
+
+	public function renderDashboardForm()
+	{
+		$this->getHtmlTemplate('dashboard');
+	}
 
 	public function getHtmlTemplate($templateRequired)
 	{
